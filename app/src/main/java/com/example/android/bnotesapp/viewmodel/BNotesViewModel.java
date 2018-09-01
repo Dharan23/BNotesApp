@@ -10,10 +10,6 @@ import com.example.android.bnotesapp.repository.BNotesRepository;
 
 import java.util.List;
 
-/**
- * Created by gowri on 01-09-2018.
- */
-
 public class BNotesViewModel extends AndroidViewModel {
 
     private LiveData<List<BNotes>> bnotesList;
