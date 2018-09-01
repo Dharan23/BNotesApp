@@ -1,7 +1,7 @@
 # BNotesApp
 Simple example using Android Architecture Components, 
 
-What Android Documentation says about these Architecture components is as follows, 
+What Android Documentation says about these Architecture components ? 
 
 1. DataBinding
 The Data Binding Library is a support library that allows you to bind UI components in your layouts to data sources in your app using a   declarative format rather than programmatically.
