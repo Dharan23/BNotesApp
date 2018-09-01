@@ -26,10 +26,6 @@ import com.example.android.bnotesapp.util.RecyclerClickHandler;
 
 import java.util.List;
 
-/**
- * Created by gowri on 25-08-2018.
- */
-
 public class BNotesRecyclerAdapter extends RecyclerView.Adapter<BNotesRecyclerAdapter.MyViewHolder>{
 
     private List<BNotes> bNotes;
