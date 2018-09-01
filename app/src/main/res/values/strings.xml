@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BNotesApp</string>
+    <string name="title_string">Title</string>
+    <string name="body_string">Enter your notes here</string>
+    <string name="share_menu_title">Share</string>
+    <string name="edit_notes_menu_title">Edit</string>
+    <string name="edit_notes_hint">Enter Your Notes Here</string>
+    <string name="save_notes_menu_title">Save</string>
+    <string name="security_lock">SECURITY LOCK</string>
+    <string name="bnotes_password_hint">PIN</string>
+    <string name="content_hidden">Contents Hidden</string>
+    <string name="text_style_normal">normal</string>
+    <string name="text_style_italic">italic</string>
+    <string name="text_style_bold">bold</string>
+</resources>

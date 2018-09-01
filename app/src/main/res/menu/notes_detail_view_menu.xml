@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/edit_notes_menu_item"
+        android:icon="@drawable/ic_mode_edit_white"
+        app:showAsAction="always"
+        android:orderInCategory="2"
+        android:title="@string/edit_notes_menu_title"/>
+    <item android:id="@+id/save_notes_menu_item"
+        android:icon="@drawable/ic_save_notes_white"
+        app:showAsAction="always"
+        android:orderInCategory="3"
+        android:title="@string/save_notes_menu_title"
+        tools:ignore="AlwaysShowAction"
+        android:visible="false"/>
+    <item android:id="@+id/share_notes_menu_item"
+           android:icon="@drawable/ic_share_white"
+            app:showAsAction="always"
+            android:orderInCategory="1"
+            android:title="@string/share_menu_title"/>
+</menu>

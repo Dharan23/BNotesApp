@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_secure"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <EditText
+            android:id="@+id/bnotes_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:hint="@string/bnotes_password_hint"
+            android:padding="15dp"
+            android:background="@drawable/input_layout_design"
+            tools:ignore="TextFields"
+            android:maxLength="4"
+            android:focusedByDefault="true"
+            tools:targetApi="o"
+            android:focusable="true"/>
+    </android.support.design.widget.TextInputLayout>
+</RelativeLayout>
