@@ -11,9 +11,6 @@ import com.example.android.bnotesapp.entity.BNotes;
 
 import java.util.List;
 
-/**
- * Created by gowri on 25-08-2018.
- */
 
 @Dao
 public interface BNotesDao{
