@@ -12,10 +12,6 @@ import android.util.Log;
 import com.example.android.bnotesapp.dao.BNotesDao;
 import com.example.android.bnotesapp.entity.BNotes;
 
-/**
- * Created by gowri on 25-08-2018.
- */
-
 @Database(entities = {BNotes.class},version = 2,exportSchema = false)
 public abstract class BNotesDataBase extends RoomDatabase{
     private static final String DB_NAME = "bnotesdatabase.db";
