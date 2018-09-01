@@ -4,9 +4,6 @@ import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.Ignore;
 import android.arch.persistence.room.PrimaryKey;
 
-/**
- * Created by gowri on 25-08-2018.
- */
 
 @Entity
 public class BNotes {
