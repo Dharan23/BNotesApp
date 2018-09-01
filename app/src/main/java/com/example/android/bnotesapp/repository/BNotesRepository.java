@@ -11,9 +11,6 @@ import com.example.android.bnotesapp.entity.BNotes;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
-/**
- * Created by gowri on 01-09-2018.
- */
 
 public class BNotesRepository {
 
