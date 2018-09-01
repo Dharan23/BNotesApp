@@ -8,9 +8,6 @@ import android.view.View;
 import com.example.android.bnotesapp.R;
 import com.example.android.bnotesapp.adpater.BNotesRecyclerAdapter;
 
-/**
- * Created by gowri on 25-08-2018.
- */
 
 public class RecyclerItemTouchHelper extends ItemTouchHelper.SimpleCallback {
 
